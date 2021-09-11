@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <center><body><img src=UATspaceLogo-2.jpg ></body</center>
+    <title style=color:crimson>Blast off!</title>
+    <script>
+        function StartTheCountdown()
+        {
+var countdown = 10;
+var timeout = 10000;
+
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = "Blast Off!";
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+// we need to do this 10 times
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+},timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+setTimeout(() => {
+    document.getElementById("CountdownDisplay").innerHTML = countdown;
+    countdown = countdown - 1;
+}, timeout)
+timeout = timeout - 1000;
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+   <h1 style=color:crimson>Blast off!</h1> 
+   <p> This application will commence Blast off!</p>
+   <h2>Countdown</h2>
+   <!--This button will start the countdown-->
+   <button type="button" onclick="StartTheCountdown()">Start Countdown</button>
+   <p id="CountdownDisplay">10</p>
+</body>
+</html>
